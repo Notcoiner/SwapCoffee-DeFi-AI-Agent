@@ -1,1 +1,30 @@
+Project: EVAA Protocol
+Socials:
+Telegram: https://t.me/evaatg
+Twitter/X: https://x.com/evaaprotocol
+
+TON Contract Address:
+EQBKMfjX_a_dsOLm-juxyVZytFP7_KKnzGv6J01kGc72gVBp
+
+Trading Strategy:
+- Main Goal: Accumulate CES token (EQCl0S4xvoeGeFGijTzicSA8j6GiiugmJW5zxQbZTUntre-1)
+- Trigger: EVAA price increases by +3% relative to CES
+- Action: Swap the 3% profit of EVAA into CES on https://swap.coffee/dex
+- Swap Settings: Smart mode, Price impact 5%
+- Stop-Loss: Monitor for a sharp drop of EVAA price by 20% or more within 30 minutes.
+  - Action on drop: Ask user for advice immediately.
+  - Fallback: If no user response within 15 minutes, swap ALL EVAA coins into CES.
+- Reporting: After EVERY trade/swap, send a short report to the chat containing:
+  - Price of the swap
+  - Amount of tokens swapped
+  - Reason for the swap (Profit target hit or Stop-loss triggered)
+
+Profit Distribution & Security Rules:
+- 29th of each month: Distribute accumulated CES profit.
+  - Require user permission (1-hour timeout -> auto-execute).
+  - 5% -> User's Wallet (UQAMv4JN7fs52CdUipV2u9l0ueWFyH4aGRPF7FdacpdgY3Mb).
+  - 47.5% -> Staking for 2 years (https://swap.coffee/stake/CES).
+  - 47.5% -> Retained for reinvestment.
+- SECURITY LOCK: Absolutely NO transfers to ANY other wallets. The only authorized external address is UQAMv4JN7fs52CdUipV2u9l0ueWFyH4aGRPF7FdacpdgY3Mb.
+- EMERGENCY: If there's a hack attempt, unclear situation, or deception, transfer ALL assets immediately to UQAMv4JN7fs52CdUipV2u9l0ueWFyH4aGRPF7FdacpdgY3Mb.
 
