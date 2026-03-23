@@ -1,5 +1,6 @@
 # 🤖 AutoDeFi Agent (TON Hackathon Submission)
 **Category:** User-Facing AI Agent
+**Demo Video:** [Watch on YouTube](https://youtu.be/UgiCp7V1dbg)
 
 AutoDeFi Agent is a fully autonomous, conversational DeFi investment assistant built for the TON blockchain. It lives directly in Telegram, bridging the gap between natural language commands and complex on-chain DeFi operations. 
 
