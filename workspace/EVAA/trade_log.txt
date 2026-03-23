@@ -1,0 +1,8 @@
+--- Trade Log ---
+Date: 2026-03-22
+Action: SWAP (Manual)
+Traded: ~1.8 EVAA
+Received: ~5.0 CES
+Reason: Spread/Drop difference yielded a baseline profit of ~5 CES.
+Current Balance: 18.2 EVAA, 5.0 CES
+-----------------
