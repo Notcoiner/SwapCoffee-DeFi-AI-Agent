@@ -19,8 +19,9 @@ Unlike simple chat bots, this agent possesses long-term memory, robust risk mana
 Powered by the **Model Context Protocol (MCP)** via `@ton/mcp`, the agent can create wallets, check balances, and execute smart-contract operations (like token swaps on `swap.coffee`) simply by understanding user intents.
 
 ### 2. Autonomous Market & Social Analysis
-The agent operates via a continuous background loop (`HEARTBEAT`), allowing it to act without human prompting:
-*   **On-Chain Data:** Automatically fetches and scores data from **DefiLlama** (TVL, USD Inflows/Outflows, Borrowed volume) daily to gauge protocol health.
+The agent operates via a continuous background loop (`HEARTBEAT`) driven by precise system cron jobs, allowing it to act without human prompting:
+*   **Continuous Monitoring:** Every 10 minutes, the agent wakes up to check real-time prices, enforcing dynamic stop-losses and capturing arbitrage spreads.
+*   **On-Chain Data:** Automatically fetches and scores data from **DefiLlama** (TVL, USD Inflows/Outflows, Borrowed volume) daily at a precise scheduled time to gauge protocol health.
 *   **Social Sentiment:** Monitors project social channels (e.g., Telegram, Twitter) for key events (token unlocks, burns, whale freezes) and assigns trading scores based on the news.
 
 ### 3. Advanced Trading & Risk Management
