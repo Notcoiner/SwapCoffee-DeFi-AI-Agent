@@ -58,9 +58,9 @@ This repository contains the actual cognitive files and strict rulesets that gov
 Integration and automated management for additional TON projects:
 *   Ston.fi ($STON)
 *   Storm Trade ($STORM)
-*   Parix ($PX)
+*   Not Pixel ($PX)
 *   Lambo ($LAMBO)
-*   Xrock ($XROCK)
+*   xRocket ($XROCK)
 *   Notcoin ($NOT)
 *   Dogs ($DOGS)
 
