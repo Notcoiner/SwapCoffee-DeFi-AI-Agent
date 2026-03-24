@@ -52,29 +52,24 @@ This repository contains the actual cognitive files and strict rulesets that gov
 *   `workspace/HEARTBEAT.md`: The central nervous system. Defines the CRON-like tasks, analysis intervals, and stop-loss monitoring loops.
 *   `workspace/EVAA/info.txt`: The specific trading strategy, points system, and strict security rules injected into the agent's context.
 
----
+## 🚀 Future Roadmap & Scaling Strategy
 
-## 🚀 Roadmap & Future Plans
-
-### 📈 Expanding Portfolio Coverage
-Integration and automated management of additional ecosystem projects:
-*   STON.fi ($STON)
+**1. Expanding the Portfolio Ecosystem:**
+Integration and automated management for additional TON projects:
+*   Ston.fi ($STON)
 *   Storm Trade ($STORM)
 *   Parix ($PX)
 *   Lambo ($LAMBO)
-*   XROCK ($XROCK)
+*   Xrock ($XROCK)
 *   Notcoin ($NOT)
 *   Dogs ($DOGS)
 
-### 📢 Autonomous Media Presence
-The agent will act as an independent fund manager in public spaces:
-*   Creation and autonomous management of Social Profiles (Telegram, X/Twitter).
-*   Auto-publishing of trade breakdowns, market analytics, and performance reports.
-*   Content marketing to attract organic users and investors.
-*   Active participation in ecosystem Ambassador Programs.
+**2. Social Media Autonomy (Agent-as-an-Influencer):**
+*   Creating and fully managing social profiles on Telegram and X (Twitter) entirely on behalf of the AI Agent.
+*   Autonomous generation of analytical posts and transparent trade reports.
+*   Content marketing and organic audience attraction.
 
-### 💰 Fund Capitalization Methods
-Expanding the inflow of capital for the agent to manage:
-*   **Ambassador Programs:** Reinvesting rewards earned from ecosystem contributions.
-*   **Direct Funding:** Owner injections for liquidity scaling.
-*   **Trust Management (Smart Contract):** Allowing third-party users to delegate funds to the agent's management via a secure, non-custodial smart contract.
+**3. Strategic Funding & Ambassador Programs:**
+*   Active participation in Ambassador programs to generate additional yield.
+*   Direct capital deposits to the agent's managed fund.
+*   Implementation of "Trust Management" via secure Smart Contracts, allowing external users to safely allocate capital under the agent's strict rulesets.
