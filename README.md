@@ -1,4 +1,4 @@
-# 🤖 AutoDeFi Agent (TON Hackathon Submission)
+# 🤖 CES Vanguard AI: Autonomous DeFi Agent on TON | IdentityHub Hackathon
 **Category:** User-Facing AI Agent
 **🎥 Demo Video for Judges:** [Watch on YouTube](https://youtu.be/UgiCp7V1dbg)
 
@@ -7,7 +7,7 @@ Our trading strategy has been battle-tested over the past months. Here are the p
 * **February Yield:** 22% profit in CES ([Report Link](https://t.me/swapcoffee_ambassador/5880))
 * **Q1 (3 Months) Yield:** 15% profit in USDT ([January Report Link](https://t.me/swapcoffee_ambassador/5628))
 
-AutoDeFi Agent is a fully autonomous, conversational DeFi investment assistant built for the TON blockchain. It lives directly in Telegram, bridging the gap between natural language commands and complex on-chain DeFi operations. 
+CES Vanguard AI is a fully autonomous, conversational DeFi investment assistant built for the TON blockchain. It lives directly in Telegram, bridging the gap between natural language commands and complex on-chain DeFi operations. 
 
 Unlike simple chat bots, this agent possesses long-term memory, robust risk management, and the ability to autonomously perform complex analytical tasks on a schedule.
 
@@ -52,7 +52,29 @@ This repository contains the actual cognitive files and strict rulesets that gov
 *   `workspace/HEARTBEAT.md`: The central nervous system. Defines the CRON-like tasks, analysis intervals, and stop-loss monitoring loops.
 *   `workspace/EVAA/info.txt`: The specific trading strategy, points system, and strict security rules injected into the agent's context.
 
-## 🚀 Future Roadmap
-*   Support for automated Liquidity Pool (LP) provision.
-*   Integration with deeper AI sentiment analysis tools for Telegram alpha channels.
-*   Multi-agent swarms (e.g., separating the Analyst Agent from the Execution Agent).
+---
+
+## 🚀 Roadmap & Future Plans
+
+### 📈 Expanding Portfolio Coverage
+Integration and automated management of additional ecosystem projects:
+*   STON.fi ($STON)
+*   Storm Trade ($STORM)
+*   Parix ($PX)
+*   Lambo ($LAMBO)
+*   XROCK ($XROCK)
+*   Notcoin ($NOT)
+*   Dogs ($DOGS)
+
+### 📢 Autonomous Media Presence
+The agent will act as an independent fund manager in public spaces:
+*   Creation and autonomous management of Social Profiles (Telegram, X/Twitter).
+*   Auto-publishing of trade breakdowns, market analytics, and performance reports.
+*   Content marketing to attract organic users and investors.
+*   Active participation in ecosystem Ambassador Programs.
+
+### 💰 Fund Capitalization Methods
+Expanding the inflow of capital for the agent to manage:
+*   **Ambassador Programs:** Reinvesting rewards earned from ecosystem contributions.
+*   **Direct Funding:** Owner injections for liquidity scaling.
+*   **Trust Management (Smart Contract):** Allowing third-party users to delegate funds to the agent's management via a secure, non-custodial smart contract.
