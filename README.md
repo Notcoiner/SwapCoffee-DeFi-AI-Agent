@@ -3,7 +3,7 @@
 **🎥 Demo Video for Judges:** [Watch on YouTube](https://youtu.be/UgiCp7V1dbg)
 
 **📈 Strategy Performance Validation:**
-Our trading strategy has been battle-tested over the past months. Here are the public financial reports proving the concept:
+Our trading strategy has been battle-tested over the past months. Dozens of investors are already using our strategy and seeing great results. Here are the public financial reports proving the concept:
 * **February Yield:** 22% profit in CES ([Report Link](https://t.me/swapcoffee_ambassador/5880))
 * **Q1 (3 Months) Yield:** 15% profit in USDT ([January Report Link](https://t.me/swapcoffee_ambassador/5628))
 
