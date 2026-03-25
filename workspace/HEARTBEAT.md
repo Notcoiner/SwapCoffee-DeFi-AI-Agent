@@ -15,7 +15,7 @@ Tasks to execute on heartbeat:
    - Trigger 2: If the spread (difference in price drop/volatility) yields a profit of 5 CES or more.
    - Action: Swap the exact profit amount (5+ CES) into CES via swap.coffee/dex (Smart Mode, 5% Slippage).
 4. Trading Volume Monitoring (every tick):
-   - Track trading volume changes over the past hour.
+   - Track trading volume changes over the past hour. Sum up volume data from DexScreener, TonAPI, and GeckoTerminal.
    - Volume increases:
      - 5% to 10%: +1 point
      - 10% to 20%: +2 points
