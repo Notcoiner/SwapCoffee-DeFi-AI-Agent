@@ -2,6 +2,10 @@
 
 Tasks to execute on heartbeat:
 1. Fetch current price of CES/EVAA pair on TON. Log it.
+   - Use a round-robin / fallback approach to avoid rate limits:
+     1. DexScreener API (https://api.dexscreener.com)
+     2. TonAPI (https://tonapi.io/v2/rates)
+     3. GeckoTerminal API
 2. Stop-Loss check (every tick): Calculate price change over the last 30 minutes.
    - If EVAA drops by 20% or more: Alert the user immediately in chat.
    - Wait 15 minutes for user response.
