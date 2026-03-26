@@ -19,7 +19,7 @@ Unlike simple chat bots, this agent possesses long-term memory, robust risk mana
 Powered by the **Model Context Protocol (MCP)** via `@ton/mcp`, the agent can create wallets, check balances, and execute smart-contract operations (like token swaps on `swap.coffee`) simply by understanding user intents.
 
 ### 2. Autonomous Market & Social Analysis
-The agent operates via a continuous background loop (`HEARTBEAT`) driven by precise system cron jobs, allowing it to act without human prompting:
+The agent operates via a continuous background loop (`HEARTBEAT`) driven by precise system cron jobs, allowing it to act without human prompting. **To optimize API costs and ensure maximum privacy, all background cron tasks and reports are powered by a local, free LLM (Ollama / Llama 3.2)**:
 *   **Continuous Monitoring:** Every 10 minutes, the agent wakes up to check real-time prices, enforcing dynamic stop-losses and capturing arbitrage spreads.
 *   **Trading Volume Analysis:** Analyzes hourly trading volume fluctuations to detect smart money movements and liquidity shifts, adding predictive scoring to the daily reports.
 *   **On-Chain Data:** Automatically fetches and scores data from **DefiLlama** (TVL, USD Inflows/Outflows, Borrowed volume) daily at a precise scheduled time to gauge protocol health.
