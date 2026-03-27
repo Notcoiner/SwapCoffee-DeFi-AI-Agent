@@ -6,3 +6,10 @@ Received: ~5.0 CES
 Reason: Spread/Drop difference yielded a baseline profit of ~5 CES.
 Current Balance: 18.2 EVAA, 5.0 CES
 -----------------
+Date: 2026-03-27
+Action: SWAP (Manual)
+Traded: ~1.72 EVAA
+Received: ~5.0 CES
+Reason: Spread trigger reached.
+Current Balance: ~16.48 EVAA, 10.0 CES
+-----------------
