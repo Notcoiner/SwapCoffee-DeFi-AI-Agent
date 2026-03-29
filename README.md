@@ -29,6 +29,7 @@ The agent operates via a continuous background loop (`HEARTBEAT`) driven by prec
 The agent follows strict, programmable trading logic:
 *   **Smart Profit Taking:** Automatically swaps profits into a target reserve token (e.g., CES) whenever an asset (e.g., EVAA) rises by a user-defined threshold (+3%).
 *   **Dynamic Stop-Loss:** Continuously monitors for flash crashes (e.g., 20% drop within 30 mins). It alerts the user immediately and, if no response is received within 15 minutes, auto-liquidates to preserve capital.
+*   **Autonomous Gas Replenishment:** The agent continuously monitors the primary wallet's $TON balance. If the gas balance falls below 1.0 TON, the agent autonomously executes a micro-swap from accumulated profits (e.g., CES or EVAA) to $TON to ensure the fund's operations never halt due to network fees.
 
 ### 4. Automated Yield & Profit Distribution
 At the end of each month, the agent autonomously calculates profits and executes a distribution plan:
