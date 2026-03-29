@@ -6,6 +6,11 @@ Tasks to execute on heartbeat:
      1. DexScreener API (https://api.dexscreener.com)
      2. TonAPI (https://tonapi.io/v2/rates)
      3. GeckoTerminal API
+1.b. Gas (TON) Monitoring (every tick):
+   - Check the TON balance of `trading-v4` wallet.
+   - If TON balance drops below 1.0 TON, autonomously execute a swap to replenish gas.
+   - Swap from CES to TON for an amount between 0.5 to 2.0 TON, depending on available CES balance.
+   - If CES balance is insufficient to cover the gas swap, swap from EVAA to TON instead.
 2. Stop-Loss check (every tick - Monitored by Local Llama LLM): Calculate price change over the last 30 minutes.
    - If EVAA drops by 20% or more: Alert the user immediately in chat.
    - Wait 15 minutes for user response.
