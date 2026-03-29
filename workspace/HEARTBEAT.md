@@ -43,6 +43,8 @@ Tasks to execute on heartbeat:
      - Drop 3% to 5%: -3 points
      - Drop 5% to 10%: -2 points
      - Drop >=10%: -1 point
+   - On Sundays: Add Weekly Price Movement (EVAA vs CES) and Weekly Score to the report.
+   - On the 1st of the month: Add Monthly Price Movement (EVAA vs CES) and Monthly Score to the report.
    - Trading Volume Analysis (Daily, Weekly, Monthly overview added to report).
    - Social Media Analysis:
      - Check EVAA socials/news for key events.
