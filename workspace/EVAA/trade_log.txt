@@ -13,3 +13,11 @@ Received: ~5.0 CES
 Reason: Spread trigger reached.
 Current Balance: ~16.48 EVAA, 10.0 CES
 -----------------
+Date: 2026-03-29
+Action: PROFIT DISTRIBUTION
+Total Profit: 10.0 CES
+Distributed to User (5%): 0.5 CES
+Staked on swap.coffee (47.5%): 4.75 CES
+Retained for reinvestment (47.5%): 4.75 CES
+Current Balance: ~16.48 EVAA, 4.75 CES
+-----------------
