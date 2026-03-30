@@ -36,6 +36,10 @@ Tasks to execute on heartbeat:
    - Traded amount
    - Reason for trade (Profit +5 CES, Spread +5 CES, OR Stop-Loss -20%)
 6. Every day at 22:35 (MSK): Perform Daily Analysis (Consolidated Report):
+   - Generate a comprehensive daily report including Price, Trading Volume, Social Media, and DefiLlama analysis.
+   - Save this report to the `EVAA/reports/` folder in the workspace.
+   - Commit and push the generated report to the GitHub repository automatically so the user can review it before bed.
+   - Send a brief summary message to the chat.
    - Price Analysis (EVAA vs CES):
      - Growth 3% to 5%: +3 points
      - Growth 5% to 10%: +2 points
@@ -68,6 +72,7 @@ Tasks to execute on heartbeat:
      - Monthly TVL growth >= 20%: +3 points
      - Weekly TVL drop >= 10%: -2 points
      - Weekly TVL drop >= 20%: -3 points
+   - Create and save the generated report to `EVAA/reports/` with the current date as the filename, then automatically push it to GitHub for public viewing.
 7. Every 1st of the month at 15:48 (MSK): Perform Monthly Price Analysis (EVAA vs CES). Report score.
    - Drop 5% to 10%: +1 point
    - Drop 10% to 20%: +2 points
