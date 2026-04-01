@@ -17,9 +17,9 @@ Tasks to execute on heartbeat:
    - If NO response after 15 minutes: Swap ALL EVAA balance into CES using the command: `python3 ~/.npm-global/lib/node_modules/openclaw/skills/swapcoffee/scripts/swap.py execute --wallet trading-v4 --from EQBKMfjX_a_dsOLm-juxyVZytFP7_KKnzGv6J01kGc72gVBp --to EQCl0S4xvoeGeFGijTzicSA8j6GiiugmJW5zxQbZTUntre-1 --amount <ALL_EVAA_BALANCE> --password "auKU12011983" --confirm`
    - Main Agent Fallback: If Llama fails to execute this emergency stop-loss, the Main Agent (Gemini) will instantly intervene and execute it.
 3. Profit-Taking check (every tick - Executed by Local Llama LLM):
-   - Trigger 1: If EVAA price increased yielding a profit of 5 CES or more.
-   - Trigger 2: If the spread (difference in price drop/volatility) yields a profit of 5 CES or more.
-   - Local LLM Action: Swap the exact profit amount (5+ CES) into CES using the command: `python3 ~/.npm-global/lib/node_modules/openclaw/skills/swapcoffee/scripts/swap.py execute --wallet trading-v4 --from EQBKMfjX_a_dsOLm-juxyVZytFP7_KKnzGv6J01kGc72gVBp --to EQCl0S4xvoeGeFGijTzicSA8j6GiiugmJW5zxQbZTUntre-1 --amount <EVAA_AMOUNT> --password "auKU12011983" --confirm`
+   - Trigger 1: The total value of EVAA in the portfolio reaches 55 CES (Baseline 50 CES + 5 CES profit).
+   - Trigger 2: If the spread (difference in price drops) yields a baseline profit of 5 CES or more above the 50 CES baseline.
+   - Local LLM Action: Swap the exact profit amount (the 5 CES over the 50 CES baseline) of EVAA into CES using the command: `python3 ~/.npm-global/lib/node_modules/openclaw/skills/swapcoffee/scripts/swap.py execute --wallet trading-v4 --from EQBKMfjX_a_dsOLm-juxyVZytFP7_KKnzGv6J01kGc72gVBp --to EQCl0S4xvoeGeFGijTzicSA8j6GiiugmJW5zxQbZTUntre-1 --amount <PROFIT_AMOUNT_IN_EVAA> --password "auKU12011983" --confirm`
    - Main Agent Fallback: The Main Agent (Gemini) will monitor these reports. If the local LLM fails to execute the swap or throws an error, the Main Agent will manually take over and execute the trade to secure the profit.
 4. Trading Volume Monitoring (every tick):
    - Track trading volume changes over the past hour. Sum up volume data from DexScreener, TonAPI, GeckoTerminal, Ston.fi, and DeDust.
