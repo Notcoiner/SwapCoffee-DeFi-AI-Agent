@@ -7,11 +7,12 @@ TON Contract Address:
 EQBKMfjX_a_dsOLm-juxyVZytFP7_KKnzGv6J01kGc72gVBp
 
 Trading Strategy:
+- Baseline Investment: 50 CES (Our starting point for profit calculations).
 - Pricing Metric: ALL prices and values must be reported and calculated in CES tokens (NOT USD/USDT). Example: 1 EVAA = X CES.
 - Main Goal: Accumulate CES token (EQCl0S4xvoeGeFGijTzicSA8j6GiiugmJW5zxQbZTUntre-1)
-- Trigger 1 (Growth): EVAA price increases yielding a profit of 5 CES or more.
-- Trigger 2 (Spread/Drop difference): If the spread/difference in price drops yields a baseline profit of 5 CES or more.
-- Action: Swap the exact profit amount (the 5+ CES from growth or spread) of EVAA into CES using the `swapcoffee` OpenClaw skill.
+- Trigger 1 (Growth): The total value of EVAA in the portfolio reaches 55 CES (Baseline 50 CES + 5 CES profit).
+- Trigger 2 (Spread/Drop difference): If the spread/difference in price drops yields a baseline profit of 5 CES or more above the 50 CES baseline.
+- Action: Swap the exact profit amount (the 5 CES over the 50 CES baseline) of EVAA into CES using the `swapcoffee` OpenClaw skill.
 - Swap Settings: Smart mode, Price impact 5%
 - Stop-Loss: Monitor for a sharp drop of EVAA price by 20% (in CES value) or more within 30 minutes.
   - Action on drop: Ask user for advice immediately.
