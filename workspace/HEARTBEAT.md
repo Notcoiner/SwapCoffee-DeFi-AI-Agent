@@ -1,7 +1,11 @@
 # HEARTBEAT.md
 
 Tasks to execute on heartbeat:
-1. Fetch current price of CES/EVAA pair on TON. Log it.
+1. Notion Task Queue Check (every tick):
+   - Check the Notion database (ID: 33666b7a-35f8-8186-b16a-d6871fc93813) for pending tasks.
+   - If a task has `Status == pending` and its `Run at` time has arrived or passed, execute the corresponding workflow (e.g., morning_report or evening_report).
+   - After execution, update the task's Status to `done` via the Notion API.
+2. Fetch current price of CES/EVAA pair on TON. Log it.
    - Use a round-robin / fallback approach to avoid rate limits:
      1. DexScreener API (https://api.dexscreener.com)
      2. TonAPI (https://tonapi.io/v2/rates)
