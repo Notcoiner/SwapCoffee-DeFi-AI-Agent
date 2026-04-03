@@ -72,7 +72,8 @@ Tasks to execute on heartbeat:
      - Outflows >= 25%: -3 points
      - Weekly TVL growth >= 4%: +1 point
      - Weekly TVL growth >= 10%: +2 points
-     - Monthly TVL growth >= 10%: +2 points
+     - Monthly TVL growth 3% to 5%: +1 point
+     - Monthly TVL growth >= 6%: +2 points
      - Monthly TVL growth >= 20%: +3 points
      - Weekly TVL drop >= 10%: -2 points
      - Weekly TVL drop >= 20%: -3 points
