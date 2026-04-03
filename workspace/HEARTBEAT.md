@@ -1,10 +1,10 @@
 # HEARTBEAT.md
 
 Tasks to execute on heartbeat:
-1. Notion Task Queue Check (every tick):
-   - Check the Notion database (ID: 33666b7a-35f8-8186-b16a-d6871fc93813) for pending tasks.
+1. Notion Task Queue Check (every tick - Executed by Local Llama LLM):
+   - Check the Notion database (ID: 33666b7a-35f8-8186-b16a-d6871fc93813) for pending tasks using the following curl command: `curl -s -X POST "https://api.notion.com/v1/databases/33666b7a-35f8-8186-b16a-d6871fc93813/query" -H "Authorization: Bearer $NOTION_API_KEY" -H "Notion-Version: 2022-06-28" -H "Content-Type: application/json" -d '{"filter": {"property": "Status", "select": {"equals": "pending"}}}'` (Assume $NOTION_API_KEY is available in the environment).
    - If a task has `Status == pending` and its `Run at` time has arrived or passed, execute the corresponding workflow (e.g., morning_report or evening_report).
-   - After execution, update the task's Status to `done` via the Notion API.
+   - After execution, update the task's Status to `done` via the Notion API: `curl -s -X PATCH "https://api.notion.com/v1/pages/<PAGE_ID>" -H "Authorization: Bearer $NOTION_API_KEY" -H "Notion-Version: 2022-06-28" -H "Content-Type: application/json" -d '{"properties": {"Status": {"select": {"name": "done"}}}}'`
 2. Fetch current price of CES/EVAA pair on TON. Log it.
    - Use a round-robin / fallback approach to avoid rate limits:
      1. DexScreener API (https://api.dexscreener.com)
