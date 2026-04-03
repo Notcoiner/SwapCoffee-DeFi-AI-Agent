@@ -4,7 +4,7 @@
 
 ## 1. On-Chain Metrics (DefiLlama)
 * **Total Value Locked (TVL):** ~$9.11M
-  * *Monthly Change:* +6.2% (Score: **0**)
+  * *Monthly Change:* +6.2% (Score: **+2**)
 * **USD Inflows vs Outflows:** Stable.
 * **Borrowed Volume:** Normal.
 
