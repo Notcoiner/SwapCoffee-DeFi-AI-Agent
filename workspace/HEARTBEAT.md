@@ -84,6 +84,7 @@ Tasks to execute on heartbeat:
    - Include Price Analysis (EVAA vs CES).
    - Include Agent Status (Stop-Loss, Profit-Taking Trigger, Gas).
    - Include Social Sentiment & News Analysis (same scoring rules as evening report).
+   - Include On-Chain Metrics (DefiLlama) analysis (TVL, USD Inflows vs Outflows, Borrowed Volume).
    - Include the **Running Total Score** and carry it over.
 7. Every 1st of the month at 15:48 (MSK): Perform Monthly Price Analysis (EVAA vs CES). Report score.
    - Drop 5% to 10%: +1 point
