@@ -79,6 +79,12 @@ Tasks to execute on heartbeat:
      - Weekly TVL drop >= 10%: -2 points
      - Weekly TVL drop >= 20%: -3 points
    - Create and save the generated report to `EVAA/reports/` with the current date as the filename, then automatically push it to GitHub for public viewing.
+   - **Running Total Score:** Calculate the total score accumulated from previous reports and add the new score from this report. Include 'Current Total Score: X' in the report and carry it over to the next report.
+6.b. Morning Report (Executed via Notion Task Queue):
+   - Include Price Analysis (EVAA vs CES).
+   - Include Agent Status (Stop-Loss, Profit-Taking Trigger, Gas).
+   - Include Social Sentiment & News Analysis (same scoring rules as evening report).
+   - Include the **Running Total Score** and carry it over.
 7. Every 1st of the month at 15:48 (MSK): Perform Monthly Price Analysis (EVAA vs CES). Report score.
    - Drop 5% to 10%: +1 point
    - Drop 10% to 20%: +2 points
