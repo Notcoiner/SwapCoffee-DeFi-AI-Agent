@@ -13,6 +13,12 @@
 ## 3. Agent Status
 * **Stop-Loss:** Safe. No 20% drop detected.
 * **Profit-Taking Trigger:** Pending. Target ratio is ~3.35 CES per EVAA. Current ratio is ~3.18. We are getting very close to the target spread of 5 CES profit!
-* **Gas Replenishment:** Active. 
+* **Gas Replenishment:** Active.
+* 
+* 4. Social Sentiment & News Analysis
+    Sources Monitored: Official Telegram & Twitter (@evaaprotocol)
+    Key Events Detected: 4-month vesting announced. (+2 points)
+    Community Vibe: Stable. (Score: +2)
+
 
 The portfolio is showing strong momentum in the EVAA to CES ratio. Monitoring continues every 20 minutes to catch the spread execution.
