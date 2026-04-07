@@ -56,7 +56,9 @@ Tasks to execute on heartbeat:
    - On the 1st of the month: Add Monthly Price Movement (EVAA vs CES) and Monthly Score to the report.
    - Trading Volume Analysis (Daily, Weekly, Monthly overview added to report).
    - Social Media Analysis:
-     - Check EVAA socials/news for key events.
+     - Check EVAA socials/news for key events. Pay attention to AMA sessions.
+     - Good: Announcement of an AMA session (+2 points)
+     - Good: The day an AMA session starts (+3 points). (Note: points are voided after the AMA ends).
      - Good: Token freeze by large holders (+2 points)
      - Bad: Upcoming token unlocks (-2 points)
      - Good: Token burn (+2 points)
